@@ -17,7 +17,13 @@ module "ec2" {
   environment    = var.environment  
   region = var.region      # Environment (dev, test, prod)
 } 
-
+resource "aws_s3_bucket" "my_bucket" {
+  bucket = "ec2-project-my-bucket"
+  tags = {
+    name = "My_bucket"
+    environment = "dev"
+  }
+}
 
 #########################################
 # Outputs
