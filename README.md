@@ -63,6 +63,6 @@ terraform apply
 
 ## Author
 
-Babatee Babatola  
+ Babatola Adeniyi
 GitHub: https://github.com/Babatee90  
-LinkedIn: https://www.linkedin.com/in/your-linkedin-here
+
